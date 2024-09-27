@@ -1,0 +1,24 @@
+MyProject/
+│
+├── backend/                # Django backend
+│   ├── api/                # Your Django app
+│   ├── backend/            # Django project
+│   ├── manage.py           # Django manage script
+│   └── requirements.txt    # List of Python dependencies
+│
+└── frontend/               # React frontend
+    ├── node_modules/       # Contains all your npm packages
+    ├── package.json        # Project configuration and dependencies
+    ├── vite.config.js      # Vite configuration file
+    ├── src/                # Your source code
+    │   ├── components/     # Your React components
+    │   └── main.jsx        # Entry point for React
+    ├── static/             # Static assets served by Django
+    │   └── frontend/       # Output from Vite build
+    └── index.html          # Main HTML file
+
+
+
+npm init -y
+npm install --save-dev vite @vitejs/plugin-react
+npm install react react-dom @mui/material @mui/icons-material react-router-dom
